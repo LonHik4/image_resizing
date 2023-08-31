@@ -16,7 +16,7 @@ This tool allows you to magnify your image with smoothing, especially for anime 
 
 (3) Click Generate in Action Panel and wait for several minutes to process. 
 
-## Develop
+## Build
 
 1. Clone the repository
 
@@ -35,14 +35,12 @@ This tool allows you to magnify your image with smoothing, especially for anime 
 pip install PySide6
 ```
 
-## Build
-
-1. Prepare python environment
+4. Prepare python environment
 ```
 pip install PyInstaller
 ```
 
-2. Build package
+5. Build package
 ```
 pyinstaller --onefile --windowed --icon=logo.ico main.py  --add-data "realesrgan;realesrgan" --add-data "waifu2x;waifu2x" 
 ```
